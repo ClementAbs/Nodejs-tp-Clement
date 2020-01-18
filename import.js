@@ -5,10 +5,10 @@ yargs.command('import [file]', ' - Import file', (y) => {
   y.positional('file', {
     type: 'string',
     default: './json/ingredients-sample.json',
-    describe: 'Importing a file into the DB'
+    describe: 'Importation d un fichier dans la BDD'
     })
   }, (argv) => {
-    console.log(`Importing the following file into the DB - ${argv.file}`);
+    console.log(`Importation d'un fichier dans la BDD - ${argv.file}`);
     importingToDB(argv.file);
   }).help().argv
 
