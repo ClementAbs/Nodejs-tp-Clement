@@ -18,7 +18,7 @@ let importingToDB = (filePath) => {
         if (err) {
           console.log(err);
         } if(result) {
-          console.log(`The folllowing ingredients ${myfileParsed[i].label} had been added to ingredients`);
+          console.log(`Les ingrédients suivants ${myfileParsed[i].label}ont été ajoutés dans la table ingrédients`);
         }
       });
     }
