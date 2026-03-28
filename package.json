@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.1",
+    "body-parser": "^1.20.4",
     "mysql": "^2.18.0",
     "yargs": "^15.1.0"
   }
